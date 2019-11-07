@@ -43,14 +43,35 @@ namespace Cas
                 rezultat = a - b;
             }
             else if (operacija == "/")
-            {
-                rezultat = a / b;
+            {`
+                    rezultat = a / b;
             }
             else if (operacija == "*")
             {
                 rezultat = a * b;
             }
             return rezultat;
+
+
+
+            // jedan zadatak sa koriscenjem konstante
+            // Izracunavanje povrsine kruga
+                        
+                //const double pi = 3.1415;
+                //double r;
+
+                //Console.WriteLine("Unesi precnik");
+                //r = Convert.ToDouble(Console.ReadLine());
+
+
+                //double povrsina = pi * r * r;
+                //Console.WriteLine("Precnik: {0}, Povrsina {1}", r, povrsina);
+                //Console.ReadKey();
+            
+
+
+
+
         }
     }
 }
